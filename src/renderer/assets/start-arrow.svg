@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="12px" viewBox="0 0 15 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tasks" transform="translate(-735.000000, -773.000000)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5">
+            <g transform="translate(30.000000, 20.000000)" id="Tasks-Normal">
+                <g transform="translate(80.000000, 1.000000)">
+                    <g id="Start-All-Tasks-Button" transform="translate(497.000000, 738.000000)">
+                        <path d="M134.702512,14.5509473 L134.702512,24.2797776 L131.325906,20.9031713 C131.056054,20.6333196 130.613221,20.6333196 130.343369,20.9031713 C130.073517,21.1730231 130.073517,21.6089374 130.343369,21.8787891 L134.903171,26.4385914 C135.173023,26.7084432 135.608937,26.7084432 135.878789,26.4385914 L140.438591,21.8787891 C140.708443,21.6089374 140.708443,21.1730231 140.438591,20.9031713 C140.16874,20.6333196 139.732825,20.6333196 139.462974,20.9031713 L136.086367,24.2797776 L136.086367,14.5509473 C136.086367,14.1703871 135.775,13.8590198 135.39444,13.8590198 C135.01388,13.8590198 134.702512,14.1703871 134.702512,14.5509473 Z" id="Path" transform="translate(135.390980, 20.250000) rotate(-90.000000) translate(-135.390980, -20.250000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

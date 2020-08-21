@@ -1,0 +1,36 @@
+.windowHeader {
+  -webkit-app-region: drag;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 1.25em;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+}
+
+.windowControls {
+  -webkit-app-region: none;
+  display: flex;
+  align-items: center;
+  right: 0;
+  top: 0;
+
+  img {
+    flex: 1;
+  }
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.wrapperSection {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

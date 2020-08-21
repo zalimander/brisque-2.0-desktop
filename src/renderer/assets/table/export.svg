@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Import Button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Billing-Profiles-(None)" transform="translate(-1158.000000, -53.000000)" fill="#FFFFFF">
+            <g id="Billing-Profiles" transform="translate(30.000000, 20.000000)">
+                <g id="Billing-Profiles-None" transform="translate(80.000000, 1.000000)">
+                    <g id="Header">
+                        <g id="Buttons" transform="translate(1002.000000, 32.000000)">
+                            <g id="Normal">
+                                <g id="Import-Button" transform="translate(46.000000, 0.000000)">
+                                    <g id="Icon" opacity="0.8" transform="translate(11.000000, 11.000000)">
+                                        <path d="M6.31153213,0.691927512 L6.31153213,8.42075783 L2.93492586,5.04415157 C2.66507414,4.77429984 2.22224053,4.77429984 1.9523888,5.04415157 C1.68253707,5.31400329 1.68253707,5.74991763 1.9523888,6.01976936 L6.5121911,10.5795717 C6.78204283,10.8494234 7.21795717,10.8494234 7.4878089,10.5795717 L12.0476112,6.01976936 C12.3174629,5.74991763 12.3174629,5.31400329 12.0476112,5.04415157 C11.7777595,4.77429984 11.3418451,4.77429984 11.0719934,5.04415157 L7.69538715,8.42075783 L7.69538715,0.691927512 C7.69538715,0.311367381 7.38401977,-1.0658141e-13 7.00345964,-1.0658141e-13 C6.62289951,-1.0658141e-13 6.31153213,0.311367381 6.31153213,0.691927512 Z" id="Path" stroke="#FFFFFF" stroke-width="0.5" transform="translate(7.000000, 5.390980) scale(1, -1) translate(-7.000000, -5.390980) "></path>
+                                        <path d="M12.25,11.375 L12.25,13.125 L1.75,13.125 L1.75,11.375 C1.75,10.89375 1.35625,10.5 0.875,10.5 C0.39375,10.5 0,10.89375 0,11.375 L0,14 C0,14.48125 0.39375,14.875 0.875,14.875 L13.125,14.875 C13.60625,14.875 14,14.48125 14,14 L14,11.375 C14,10.89375 13.60625,10.5 13.125,10.5 C12.64375,10.5 12.25,10.89375 12.25,11.375 Z" id="Path"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

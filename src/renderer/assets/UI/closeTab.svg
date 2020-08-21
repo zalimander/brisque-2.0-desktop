@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="6px" viewBox="0 0 6 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Capcha-Solver" transform="translate(-64.000000, -79.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Splash-Screen/Loading" transform="translate(31.000000, 21.000000)">
+                <g id="Blank" transform="translate(9.000000, 36.000000)">
+                    <g id="Tab-Nav" transform="translate(7.000000, 0.000000)">
+                        <g id="Group-2">
+                            <path d="M22.8668942,22.1376564 C22.6894198,21.960182 22.4027304,21.960182 22.225256,22.1376564 L20,24.3583618 L17.774744,22.1331058 C17.5972696,21.9556314 17.3105802,21.9556314 17.1331058,22.1331058 C16.9556314,22.3105802 16.9556314,22.5972696 17.1331058,22.774744 L19.3583618,25 L17.1331058,27.225256 C16.9556314,27.4027304 16.9556314,27.6894198 17.1331058,27.8668942 C17.3105802,28.0443686 17.5972696,28.0443686 17.774744,27.8668942 L20,25.6416382 L22.225256,27.8668942 C22.4027304,28.0443686 22.6894198,28.0443686 22.8668942,27.8668942 C23.0443686,27.6894198 23.0443686,27.4027304 22.8668942,27.225256 L20.6416382,25 L22.8668942,22.774744 C23.039818,22.6018203 23.039818,22.3105802 22.8668942,22.1376564 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

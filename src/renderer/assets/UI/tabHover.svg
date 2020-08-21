@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="31px" viewBox="0 0 52 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>tabHover</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M16,1.01962883e-12 L36,-3.55271368e-15 C41.5228475,-4.56724431e-15 46,4.4771525 46,10 L46,22.587381 C46,26.3845992 48.4097888,29.7633717 52,31 L52,31 L0,31 L0,31 C3.59021121,29.7633717 6,26.3845992 6,22.587381 L6,10 C6,4.4771525 10.4771525,1.018867e-12 16,1.01785247e-12 Z" id="tabHover" fill="#251F2F"></path>
+    </g>
+</svg>

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700,800');
+
+* {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: transparent;
+  color: #fff;
+}
+
+a {
+  -webkit-app-region: none;
+  color: #caafff;
+  font-weight: 700 !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  transition: 0.25s background-color ease-in-out;
+  height: 100%;
+
+  &.horizontal {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &.draggable {
+    -webkit-app-region: drag;
+  }
+}
+
+.subtext {
+  color: #d9d9d9;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.version {
+  color: #5f5a66;
+  position: absolute;
+  right: 7px;
+  bottom: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex: 1;
+
+  div {
+    display: inline-block;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-left-color: #caafff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1.2s linear infinite;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &.small {
+    div {
+      width: 20px;
+      height: 20px;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+.fade-enter-active,
+.fade-exit-active {
+  transition: opacity 0.25s ease-in-out;
+
+  &.height {
+    transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out,
+      min-height 0.25s ease-in-out;
+  }
+}
+
+.fade-enter {
+  opacity: 0;
+
+  &.height {
+    height: 0;
+    min-height: 0;
+  }
+
+  &.delayed-enter {
+    transition-delay: 0.2s;
+  }
+
+  &.fade-enter-active {
+    opacity: 1;
+  }
+
+  &.absolute {
+    position: absolute;
+  }
+}
+
+.fade-exit {
+  opacity: 1;
+
+  &.absolute-first {
+    position: absolute;
+    top: 0;
+  }
+
+  &.delayed {
+    transition-delay: 0.1s;
+  }
+
+  &.fade-exit-active {
+    opacity: 0;
+
+    &.height {
+      height: 0;
+      min-height: 0;
+    }
+  }
+}
+
+.pop-enter {
+  opacity: 0;
+  transform: scale(0.5) translateY(-200px) translateX(100px);
+}
+
+.pop-exit {
+  opacity: 0;
+  transform: scale(0.5) translateY(-200px);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

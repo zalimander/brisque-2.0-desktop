@@ -1,0 +1,109 @@
+.container {
+
+  .tilt {
+    background:none;
+  }
+
+  .cardGradients {
+    display: flex;
+    justify-content: space-between;
+    height: 26px;
+    width: 100%;
+    margin-bottom: 10px;
+
+    .gradient {
+      opacity: .25;
+      width: 26px;
+      height: 26px;
+      transition: opacity .25s ease-in-out;
+      background-size: 26px;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+  }
+
+  .cardPreview {
+    transition: all .5s ease-in-out;
+    border-radius: 10px;
+    background: linear-gradient(150deg, #FF00AA 0%, #0073FF 51%, #00B95F 100%);
+    width: 335px;
+    height: 195px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15);
+
+    .cardDesign {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-size: 335px;
+      background-image: url("../assets/cards/designs/11.png");
+      z-index: 0;
+    }
+
+    &::after {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: inherit;
+      top: 5px;
+      filter: blur(15px);
+      opacity: 0.6;
+      z-index: -1;
+    }
+
+    .cardContent {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 0 20px;
+      position: relative;
+      z-index: 1;
+      transform: translateZ(15px);
+    }
+
+    .profileTitle {
+      font-style: italic;
+      font-size: 15px;
+    }
+
+    .cardNumber {
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .cardInfo {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .subtitle {
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: 600;
+        opacity: .7;
+      }
+
+      .title {
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      .cardExpiration {
+        text-align: right;
+      }
+
+
+    }
+
+  }
+}

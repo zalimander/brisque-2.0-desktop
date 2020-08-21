@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="2px" viewBox="0 0 14 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-Task" transform="translate(-1038.000000, -280.000000)" fill="#FFFFFF">
+            <g id="Tasks" transform="translate(30.000000, 38.000000)">
+                <g id="New-Task-Modal" transform="translate(80.000000, 0.000000)">
+                    <g id="Product-&amp;-Billing-(filled)" transform="translate(622.000000, 73.000000)">
+                        <g id="Stepper-with-text" transform="translate(296.000000, 153.000000)">
+                            <path d="M23,18 L11,18 C10.45,18 10,17.55 10,17 C10,16.45 10.45,16 11,16 L23,16 C23.55,16 24,16.45 24,17 C24,17.55 23.55,18 23,18 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

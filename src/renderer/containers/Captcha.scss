@@ -1,0 +1,125 @@
+.root {
+  position: absolute;
+  background-color: #1A1324;
+  width: 100%;
+  height: 100%;
+
+  .tabBar{
+    display: flex;
+    margin-top: 36px;
+    height: 31px;
+    width: 100%;
+    padding: 0 10px;
+
+    .title {
+      font-size: 13px;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 5px;
+    }
+
+    .tab {
+      background: none;
+      position: relative;
+      width: 40px;
+      height: 32px;
+      margin-left: -11px;
+      padding: 0.15em;
+      z-index: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &::after{
+        content: '';
+        position: absolute;
+        display: block;
+        left: 38px;
+        bottom: 12px;
+        width: 1px;
+        min-height: 15px;
+        border-radius: 5px;
+        background: #FFFFFF33;
+      }
+
+      .newTab {
+        margin-top: 5px;
+      }
+
+      .close {
+        background: #FFF0;
+        border-radius: 50%;
+        min-width: 14px;
+        min-height: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: .5;
+        transition: opacity .25s ease-in-out, background-color .25s ease-in-out;
+        cursor: pointer;
+        margin-top: -2px;
+
+        &:hover{
+          opacity: 1;
+          background: #FFFFFF1A;
+        }
+
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:hover {
+        background: url("../assets/UI/tabHover.svg") center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &.active {
+        z-index: 1;
+        background: url("../assets/UI/tabActive.svg") center no-repeat;
+        background-size: 100% 100%;
+
+        &::after {
+          opacity: 0;
+        }
+      }
+    }
+  }
+
+  .captchaArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2D2836;
+    width: 100%;
+    height: 722px;
+
+    .container {
+      width: 400px;
+      height: 100%;
+      padding: 10px;
+
+      .captcha {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+        height: 580px;
+        border: 1px solid #ffffff26;
+        border-radius: 5px;
+        box-sizing: border-box;
+
+        .waiting {
+          display: flex;
+          flex-direction: column;
+
+          .info {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}

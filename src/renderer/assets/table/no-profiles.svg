@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="100px" viewBox="0 0 172 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Visa Card@10x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.54895231%" x2="50%" y2="96.9411885%" id="linearGradient-1">
+            <stop stop-color="#7B4DD4" offset="0%"></stop>
+            <stop stop-color="#4B2693" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="171.794872" height="100" rx="5"></rect>
+        <linearGradient x1="50%" y1="0.542362438%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.05" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.58959538%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#E6DAFF" offset="0%"></stop>
+            <stop stop-color="#CAAFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Billing-Profiles-(None)" transform="translate(-601.000000, -418.000000)">
+            <g id="Billing-Profiles" transform="translate(30.000000, 20.000000)">
+                <g id="Billing-Profiles-None" transform="translate(80.000000, 1.000000)">
+                    <g id="Group-3" transform="translate(1.000000, 165.000000)">
+                        <g id="Info" transform="translate(388.000000, 232.000000)">
+                            <g id="Visa-Card" transform="translate(102.000000, 0.000000)">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <use id="Base" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                                <polygon id="Glare" fill="url(#linearGradient-4)" mask="url(#mask-3)" points="120.777714 -4.54747351e-13 172 -1.36685802e-13 172 100 30 100"></polygon>
+                                <rect id="Rectangle" fill="url(#linearGradient-5)" opacity="0.5" mask="url(#mask-3)" x="118" y="41" width="26" height="4" rx="2"></rect>
+                                <rect id="Rectangle" fill-opacity="0.25" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="10" y="41" width="26" height="4" rx="2"></rect>
+                                <rect id="Rectangle" fill-opacity="0.25" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="82" y="41" width="26" height="4" rx="2"></rect>
+                                <rect id="Rectangle" fill-opacity="0.25" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="46" y="41" width="26" height="4" rx="2"></rect>
+                                <rect id="Rectangle" fill-opacity="0.5" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="10" y="10" width="67" height="6" rx="3"></rect>
+                                <rect id="Rectangle" fill-opacity="0.5" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="10" y="84" width="50" height="6" rx="3"></rect>
+                                <rect id="Rectangle" fill-opacity="0.5" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="132" y="84" width="30" height="6" rx="3"></rect>
+                                <rect id="Rectangle" fill-opacity="0.25" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="10" y="76" width="30" height="4" rx="2"></rect>
+                                <rect id="Rectangle" fill-opacity="0.25" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="117" y="76" width="45" height="4" rx="2"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

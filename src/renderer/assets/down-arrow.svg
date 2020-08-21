@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="7px" viewBox="0 0 12 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dropdown-With-Item-Selected" transform="translate(-228.000000, -14.000000)" fill="#FFFFFF">
+            <g id="Path">
+                <path d="M229.838926,14.3109339 L234.005369,18.4354594 L238.171812,14.3109339 C238.590604,13.8963554 239.267114,13.8963554 239.685906,14.3109339 C240.104698,14.7255125 240.104698,15.3952164 239.685906,15.809795 L234.757047,20.6890661 C234.338255,21.1036446 233.661745,21.1036446 233.242953,20.6890661 L228.314094,15.809795 C227.895302,15.3952164 227.895302,14.7255125 228.314094,14.3109339 C228.732886,13.9069856 229.420134,13.8963554 229.838926,14.3109339 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,62 @@
+.container {
+  transition: width 0.5s;
+
+  .stepper {
+    display: flex;
+    height: 34px;
+    background-color: #ffffff0d;
+    border: 1px solid #ffffff26;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 0.25em;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.25s all ease-in-out;
+
+    &:hover {
+      border-color: #ffffff40;
+      background-color: #ffffff1a;
+    }
+
+    .button {
+      transition: opacity 1s;
+      opacity: 0.5;
+      cursor: pointer;
+      width: 14px;
+      height: 100%;
+      padding: 0 0.5em;
+
+      &.stepUp {
+        background: url('../assets/UI/add.svg') no-repeat center;
+      }
+
+      &.stepDown {
+        background: url('../assets/UI/subtract.svg') no-repeat center;
+      }
+
+      &.disabled {
+        opacity: 0.25;
+        cursor: initial;
+      }
+
+      &:not(.disabled):hover {
+        opacity: 1;
+      }
+    }
+
+    .number {
+      font-size: 1.25em;
+      padding-bottom: 0.1em;
+      font-weight: bold;
+    }
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  color: #fffc;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-bottom: 0.25em;
+  white-space: nowrap;
+}

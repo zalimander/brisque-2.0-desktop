@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+
+  > .container {
+    position: relative;
+  }
+}
+
+.login {
+  height: 100%;
+}
+
+.webviewContainer {
+  position: absolute;
+  display: flex;
+  flex: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.webview {
+  flex: 1;
+}
+
+.logo {
+  height: 120px;
+  width: auto;
+  margin-top: 1.25em;
+}
+
+.title {
+  font-size: 34px;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.button {
+  position: relative;
+  width: 100%;
+}
+
+.error {
+  position: absolute;
+  color: #ff4c40;
+  font-weight: 600;
+  font-size: 0.9em;
+  bottom: 1.65em;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+}

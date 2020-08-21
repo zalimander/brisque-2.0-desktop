@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="15px" viewBox="0 0 13 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Start Button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9">
+        <g id="Idle-Task" transform="translate(-1088.000000, -15.000000)" fill="#3CD556">
+            <g id="Start-Button">
+                <path d="M1088,16.2150206 L1088,28.7849794 C1088,29.7434994 1089.05559,30.3258913 1089.86851,29.8041652 L1099.7449,23.5191858 C1100.49716,23.0459924 1100.49716,21.9540076 1099.7449,21.468681 L1089.86851,15.1958348 C1089.05559,14.6741087 1088,15.2565006 1088,16.2150206 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

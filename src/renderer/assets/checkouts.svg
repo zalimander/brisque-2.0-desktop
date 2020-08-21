@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-331.000000, -672.000000)" fill="#CAAFFF" fill-rule="nonzero">
+            <g transform="translate(30.000000, 20.000000)" id="Dashboard-Content">
+                <g transform="translate(80.000000, 1.000000)">
+                    <g id="Group" transform="translate(70.000000, 175.000000)">
+                        <g id="Analytics" transform="translate(0.000000, 442.000000)">
+                            <g id="3x">
+                                <g id="Successful-Checkouts">
+                                    <g id="Group-4" transform="translate(55.000000, 25.000000)">
+                                        <g id="Oval-2" transform="translate(87.000000, 0.000000)">
+                                            <path d="M20,9 C13.928,9 9,13.928 9,20 C9,26.072 13.928,31 20,31 C26.072,31 31,26.072 31,20 C31,13.928 26.072,9 20,9 Z M17.019,24.719 L13.07,20.77 C12.641,20.341 12.641,19.648 13.07,19.219 C13.499,18.79 14.192,18.79 14.621,19.219 L17.8,22.387 L25.368,14.819 C25.797,14.39 26.49,14.39 26.919,14.819 C27.348,15.248 27.348,15.941 26.919,16.37 L18.57,24.719 C18.152,25.148 17.448,25.148 17.019,24.719 Z" id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="17px" viewBox="0 0 28 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>MasterCardMiniLogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="17" rx="2"></rect>
+    </defs>
+    <g id="MasterCardMiniLogo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Base" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="mastercard-seeklogo.com" mask="url(#mask-2)">
+                <g transform="translate(5.000000, 3.000000)">
+                    <rect id="Rectangle" fill="#FF5F00" x="6.56001882" y="1.18852093" width="4.86213036" height="8.73639907"></rect>
+                    <path d="M6.86872399,5.55671907 C6.86872399,3.78165558 7.70223206,2.20725147 8.98336484,1.18851939 C8.04180938,0.447623331 6.85328864,-1.37001239e-06 5.55672055,-1.37001239e-06 C2.48508898,-1.37001239e-06 1.21414289e-07,2.48508749 1.21414289e-07,5.55671907 C1.21414289e-07,8.62835062 2.48508898,11.1134395 5.55672055,11.1134395 C6.85328864,11.1134395 8.04180938,10.6658148 8.98336484,9.92491875 C7.70223206,8.92162195 6.86872399,7.33178257 6.86872399,5.55671907 Z" id="Path" fill="#EB001B"></path>
+                    <path d="M17.9821649,5.55671907 C17.9821649,8.62835062 15.497076,11.1134395 12.4254444,11.1134395 C11.1288763,11.1134395 9.94035551,10.6658148 8.99880019,9.92491875 C10.2953682,8.90618667 11.113441,7.33178257 11.113441,5.55671907 C11.113441,3.78165558 10.2799329,2.20725147 8.99880019,1.18851939 C9.94035551,0.447623331 11.1288763,-1.37001239e-06 12.4254444,-1.37001239e-06 C15.497076,-1.37001239e-06 17.9821649,2.50052283 17.9821649,5.55671907 Z" id="Path" fill="#F79E1B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

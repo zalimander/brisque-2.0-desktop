@@ -1,0 +1,63 @@
+.container {
+  width: 100%;
+
+  .comboBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF0D;
+    border: 1px solid #ffffff26;
+    color: #FFF;
+    border-radius: 5px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0em .5em;
+    transition: 0.25s all ease-in-out;
+
+    .infoContainer {
+      display: flex;
+      flex-direction: column;
+      font-size:16px;
+      padding-left: 10px;
+
+      .cardTitle {
+        font-weight: 600;
+      }
+
+      .subtitle {
+        opacity: .5;
+        font-weight: normal;
+      }
+    }
+
+    .cardPreview {
+      width: 76px;
+      height: 44px;
+      background-color: #FFFFFF1A;
+      border-radius: 5px;
+    }
+
+    .arrow {
+      width: 12px;
+      height: 7px;
+      opacity: .5;
+      margin-left: auto;
+      background: url('../assets/down-arrow.svg') no-repeat center;
+    }
+
+    &:hover {
+      border-color: #ffffff40;
+      background-color: #ffffff1a;
+    }
+  }
+
+  .title {
+    text-transform: uppercase;
+    color: #fffc;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 0.25em;
+  }
+}
+

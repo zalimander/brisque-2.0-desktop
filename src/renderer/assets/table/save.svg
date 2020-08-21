@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Save Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.75243858%" x2="50%" y2="97.1125239%" id="linearGradient-1">
+            <stop stop-color="#3CD556" offset="0%"></stop>
+            <stop stop-color="#238834" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Edit-Tasks" transform="translate(-1205.000000, -54.000000)">
+            <g id="Tasks" transform="translate(30.000000, 20.000000)">
+                <g id="Edit-Tasks-Tasks-Selected" transform="translate(80.000000, 1.000000)">
+                    <g id="Save-Button" transform="translate(1095.000000, 33.000000)">
+                        <circle id="Button" fill="url(#linearGradient-1)" cx="17" cy="17" r="17"></circle>
+                        <path d="M13.9394211,20.7045658 L10.6257833,17.3909281 C10.2533572,17.0185019 9.65174575,17.0185019 9.27931961,17.3909281 C8.90689346,17.7633542 8.90689346,18.3649657 9.27931961,18.7373918 L13.2709639,22.7290361 C13.64339,23.1014623 14.2450015,23.1014623 14.6174276,22.7290361 L24.7206804,12.6257833 C25.0931065,12.2533572 25.0931065,11.6517457 24.7206804,11.2793196 C24.3482543,10.9068935 23.7466428,10.9068935 23.3742167,11.2793196 L13.9394211,20.7045658 Z" id="Path" stroke="#FFFFFF" stroke-width="0.4" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

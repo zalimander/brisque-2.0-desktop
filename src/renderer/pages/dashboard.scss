@@ -1,0 +1,306 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  margin-right: 0.2em;
+  flex: 1;
+
+  &::-webkit-scrollbar {
+    background: transparent;
+    width: 0.25em;
+
+    &-thumb {
+      background: #ffffff0d;
+      border-radius: 50px;
+      margin-top: 5px;
+    }
+  }
+}
+
+.container {
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em 1.8em 2em 2em;
+  max-width: 930px;
+  margin: auto;
+  flex: 1;
+
+  h2 {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    font-size: 1.25em;
+  }
+
+  .subtitle {
+    font-size: 0.7em;
+    color: #ffffffb3;
+  }
+
+  > .header {
+    display: flex;
+    align-items: center;
+    margin: 0 1em;
+
+    .profile {
+      display: flex;
+      align-items: center;
+
+      .avatar {
+        transition: 0.25s opacity ease-in-out;
+        width: 3.5em;
+        height: 3.5em;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+
+        &.absolute {
+          position: absolute;
+          opacity: 0;
+        }
+      }
+
+      &:hover {
+        .avatar {
+          &.absolute {
+            opacity: 1;
+          }
+
+          &.hide {
+            opacity: 0;
+          }
+        }
+      }
+
+      .name {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0.75em;
+
+        a {
+          transition: 0.25s color ease-in-out;
+          color: #ff4c40;
+
+          &:hover {
+            color: #ff7066;
+          }
+        }
+
+        .discordLink {
+          color: #CAAFFF;
+          padding: 0;
+          transition: color .25s;
+          margin-left: .15em;
+          cursor: pointer;
+
+          &:hover {
+            color: #DAC7FF;
+          }
+        }
+
+        .actions {
+          display: flex;
+
+          .role {
+            height: fit-content;
+            border-radius: 50px;
+            padding: 5px 10px;
+            margin: 2px 0 0 5px;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 700;
+
+            &:first-child {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .signOut {
+      width: fit-content;
+      margin-left: auto;
+      padding: 0 0.5em;
+    }
+  }
+
+  .lists {
+    display: flex;
+    margin-top: 2em;
+
+    .list {
+      flex-direction: column;
+      margin: 0 1em;
+      flex: 1;
+
+      .caption {
+        display: flex;
+        margin-bottom: 0.5em;
+
+        .buttons {
+          display: flex;
+          margin-left: auto;
+
+          :last-child {
+            margin-left: 0.5em;
+          }
+        }
+      }
+
+      .contents {
+        background-color: #ffffff0d;
+        border-radius: 0.4em;
+        height: 14em;
+        overflow: hidden;
+
+        p {
+          display: flex;
+          align-items: center;
+          margin: 0;
+        }
+
+        .header {
+          display: flex;
+          align-items: center;
+          background-color: #3d3648;
+          box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+          height: 2.25em;
+
+          p {
+            color: #ffffffe6;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 0.8em;
+          }
+        }
+
+        .body {
+          height: calc(100% - 2.25em);
+          margin-right: 0.2em;
+          overflow: auto;
+
+          &::-webkit-scrollbar {
+            background: transparent;
+            width: 0.25em;
+
+            &-thumb {
+              background: #ffffff0d;
+              border-radius: 50px;
+            }
+          }
+
+          &.centered {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+          }
+
+          .item {
+            display: flex;
+            align-items: center;
+            background-color: #ffffff0d;
+            border-radius: 0.4em;
+            height: 3.5em;
+            padding: 0 0.5em;
+            margin: 0 0.3em 0.5em 0.5em;
+
+            &:first-child {
+              margin-top: 0.75em;
+            }
+          }
+
+          .mono {
+            font-size: 0.7em;
+            letter-spacing: -0.01em;
+            font-family: 'Roboto Mono', monospace;
+          }
+
+          .expiration {
+            color: #fff;
+            margin-left: 3em;
+            font-size: 0.75em;
+            font-weight: 700;
+          }
+
+          .lifetime {
+            color: #caafff;
+          }
+        }
+      }
+    }
+  }
+
+  .analytics {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+
+    /* stylelint-disable-next-line */
+    > .header {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 1em 0.5em 1em;
+
+      .dropDown {
+        display: none;
+      }
+    }
+
+    .analyticContainer {
+      display: flex;
+
+      .analytic {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ffffff0d;
+        border-radius: 0.4em;
+        height: 8em;
+        padding: 1.5em;
+        flex: 1;
+        margin: 0 1em;
+
+        .icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 22px;
+          height: 22px;
+          padding: 0.5em;
+          border-radius: 50%;
+          background-color: #fff;
+
+          /* stylelint-disable-next-line */
+          &:global(#purple) {
+            background-color: #caafff1a;
+          }
+
+          /* stylelint-disable-next-line */
+          &:global(#green) {
+            background-color: #00ff2a1a;
+          }
+
+          /* stylelint-disable-next-line */
+          &:global(#blue) {
+            background-color: #8cc7f71a;
+          }
+        }
+
+        .centered {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: auto;
+
+          * {
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Button 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Capcha-Solver" transform="translate(-259.000000, -60.000000)" fill="#FFFFFF">
+            <g id="Splash-Screen/Loading" transform="translate(31.000000, 21.000000)">
+                <g id="Blank" transform="translate(9.000000, 36.000000)">
+                    <g id="Tab-Nav" transform="translate(7.000000, 0.000000)">
+                        <g id="Group-3" transform="translate(212.000000, 3.000000)">
+                            <path d="M7,14 C3.13400675,14 0,10.8659932 0,7 C0,3.13400675 3.13400675,0 7,0 C10.8659932,0 14,3.13400675 14,7 C14,10.8659932 10.8659932,14 7,14 Z M10.6,7.6 C10.93,7.6 11.2,7.33 11.2,7 C11.2,6.67 10.93,6.4 10.6,6.4 L7.6,6.4 L7.6,3.4 C7.6,3.07 7.33,2.8 7,2.8 C6.67,2.8 6.4,3.07 6.4,3.4 L6.4,6.4 L3.4,6.4 C3.07,6.4 2.8,6.67 2.8,7 C2.8,7.33 3.07,7.6 3.4,7.6 L6.4,7.6 L6.4,10.6 C6.4,10.93 6.67,11.2 7,11.2 C7.33,11.2 7.6,10.93 7.6,10.6 L7.6,7.6 L10.6,7.6 Z" id="Button-2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
